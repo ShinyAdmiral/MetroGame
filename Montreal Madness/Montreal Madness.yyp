@@ -2,7 +2,9 @@
   "resources": [
     {"id":{"name":"spr_yellowTrain","path":"sprites/spr_yellowTrain/spr_yellowTrain.yy",},"order":0,},
     {"id":{"name":"spr_orangeTrain","path":"sprites/spr_orangeTrain/spr_orangeTrain.yy",},"order":5,},
+    {"id":{"name":"spr_majorStation","path":"sprites/spr_majorStation/spr_majorStation.yy",},"order":6,},
     {"id":{"name":"spr_metroLines","path":"sprites/spr_metroLines/spr_metroLines.yy",},"order":3,},
+    {"id":{"name":"spr_minorStation","path":"sprites/spr_minorStation/spr_minorStation.yy",},"order":7,},
     {"id":{"name":"spr_greenTrain","path":"sprites/spr_greenTrain/spr_greenTrain.yy",},"order":2,},
     {"id":{"name":"spr_blueTrain","path":"sprites/spr_blueTrain/spr_blueTrain.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
