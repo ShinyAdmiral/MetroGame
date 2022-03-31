@@ -9,3 +9,12 @@ if (point_distance(line[|current_point].x, line[|current_point].y, x, y) <= trai
 		current_point += current_direction;
 	}
 }
+
+if (x - line[|current_point].x > 0)
+	image_xscale = -scale_x;
+else
+	image_xscale = scale_x;
+
+time += delta_time * 0.000002;
+image_yscale = sin(time * pi) * 0.1 + 1;
+scale_x = cos(time * pi) * 0.1 + 1;
