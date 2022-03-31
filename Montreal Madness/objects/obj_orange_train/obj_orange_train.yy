@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_minorStation_orange",
-    "path": "sprites/spr_minorStation_orange/spr_minorStation_orange.yy",
+    "name": "spr_orangeTrain",
+    "path": "sprites/spr_orangeTrain/spr_orangeTrain.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_colored_station",
-    "path": "objects/obj_colored_station/obj_colored_station.yy",
+    "name": "obj_train",
+    "path": "objects/obj_train/obj_train.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -27,11 +27,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Colored Nodes",
-    "path": "folders/Objects/Stations/Colored Nodes.yy",
+    "name": "Trains",
+    "path": "folders/Objects/Stations/Trains.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_colored_station_orange",
+  "name": "obj_orange_train",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_minorStation_orange",
-    "path": "sprites/spr_minorStation_orange/spr_minorStation_orange.yy",
+    "name": "spr_minorStation_green",
+    "path": "sprites/spr_minorStation_green/spr_minorStation_green.yy",
   },
   "solid": false,
   "visible": true,
