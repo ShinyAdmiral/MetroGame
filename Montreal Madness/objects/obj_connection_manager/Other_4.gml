@@ -28,7 +28,7 @@ with(obj_major_station){
 										"Train", train_object);
 										
 	_inst.line = other.metro_line_connections[?start_line_color];
-	_inst.start();
+	_inst.Start();
 	
 	var _size = ds_list_size(other.metro_line_connections[?start_line_color]);
 	_inst = instance_create_layer(		other.metro_line_connections[?start_line_color][|_size-1].x, 
@@ -38,6 +38,6 @@ with(obj_major_station){
 	_inst.line = other.metro_line_connections[?start_line_color];
 	_inst.current_point = _size-1;
 	_inst.current_direction *= -1;
-	_inst.start();
+	_inst.Start();
 }
 

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_minorStation",
-    "path": "sprites/spr_minorStation/spr_minorStation.yy",
+    "name": "spr_characters",
+    "path": "sprites/spr_characters/spr_characters.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,17 +20,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
-  "properties": [
-    {"varType":2,"value":"","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"station_name","tags":[],"resourceType":"GMObjectProperty",},
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_person","path":"objects/obj_person/obj_person.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
+  "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Stations",
     "path": "folders/Objects/Stations.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_station",
+  "name": "obj_person",
   "tags": [],
   "resourceType": "GMObject",
 }
