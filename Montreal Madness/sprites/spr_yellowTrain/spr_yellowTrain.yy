@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6bc9e079-c9bf-417d-a58b-ca8e81049fd1","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "trains",
+    "path": "folders/Sprites/trains.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_yellowTrain",

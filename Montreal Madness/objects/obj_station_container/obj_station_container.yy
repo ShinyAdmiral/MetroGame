@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_station_nineSlice",
-    "path": "sprites/spr_station_nineSlice/spr_station_nineSlice.yy",
+    "name": "spr_unhovered_station_nineSlice",
+    "path": "sprites/spr_unhovered_station_nineSlice/spr_unhovered_station_nineSlice.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,11 +21,14 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":73,"eventType":8,"collisionObjectId":null,"parent":{"name":"obj_station_container","path":"objects/obj_station_container/obj_station_container.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_station_container","path":"objects/obj_station_container/obj_station_container.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":4,"eventType":7,"collisionObjectId":null,"parent":{"name":"obj_station_container","path":"objects/obj_station_container/obj_station_container.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"obj_station_container","path":"objects/obj_station_container/obj_station_container.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_station_container","path":"objects/obj_station_container/obj_station_container.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
     {"varType":0,"value":"3","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"person_max","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":2,"value":"","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"station_id","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {

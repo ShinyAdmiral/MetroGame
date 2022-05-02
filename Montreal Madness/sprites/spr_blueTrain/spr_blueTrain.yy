@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ea8cf48a-6235-402f-8057-511dca43555a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "trains",
+    "path": "folders/Sprites/trains.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_blueTrain",

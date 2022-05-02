@@ -9,7 +9,7 @@ function searchForNode(_line, _search_id, _current_id){
 	ds_list_add(_line, _current_id);
 	_current_id.checked = true;
 	
-	var _check_dist = 30;
+	var _check_dist = 60;
 	
 	var _list_col = ds_list_create();
 	//collision_circle_list(x, y, 30, _search_id, true, true, _list_col, false);
