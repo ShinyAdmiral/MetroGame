@@ -15,6 +15,7 @@ width = sprite_get_width(sprite_index);
 height = sprite_get_height(sprite_index);
 
 current_station = "";
+desired_station = "";
 
 function StayPut(){
 	if (current_occupide_node == noone) return;

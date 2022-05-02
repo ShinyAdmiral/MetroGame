@@ -16,6 +16,7 @@
     {"id":{"name":"spr_station_nineSlice","path":"sprites/spr_station_nineSlice/spr_station_nineSlice.yy",},"order":2,},
     {"id":{"name":"spr_metroSignBlue","path":"sprites/spr_metroSignBlue/spr_metroSignBlue.yy",},"order":7,},
     {"id":{"name":"spr_unhovered_station_nineSlice_wrong","path":"sprites/spr_unhovered_station_nineSlice_wrong/spr_unhovered_station_nineSlice_wrong.yy",},"order":3,},
+    {"id":{"name":"scr_assign_dialogue","path":"scripts/scr_assign_dialogue/scr_assign_dialogue.yy",},"order":2,},
     {"id":{"name":"spr_painting","path":"sprites/spr_painting/spr_painting.yy",},"order":18,},
     {"id":{"name":"obj_train","path":"objects/obj_train/obj_train.yy",},"order":0,},
     {"id":{"name":"spr_blankTrain","path":"sprites/spr_blankTrain/spr_blankTrain.yy",},"order":4,},

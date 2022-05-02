@@ -17,3 +17,7 @@ if (!picked_up){
 }
 
 else MoveObject();
+
+if (desired_station == current_station){
+	//perform last 
+}
