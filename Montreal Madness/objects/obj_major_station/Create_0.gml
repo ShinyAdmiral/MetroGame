@@ -1,10 +1,12 @@
-/// @description function declaration
+/// @description function declaration and queues
 event_inherited();
 
 checked = false;
+queue = ds_queue_create();
+current_in_que = noone;
 
 //recursive function ment to loop until re run out of nodes
-function searchForNode(_line, _search_id, _current_id){
+function SearchForNode(_line, _search_id, _current_id){
 	
 	ds_list_add(_line, _current_id);
 	_current_id.checked = true;
@@ -52,8 +54,9 @@ function searchForNode(_line, _search_id, _current_id){
 	
 	if (!found) return;
 	
-	searchForNode(_line, _search_id, _current_id);
+	SearchForNode(_line, _search_id, _current_id);
 }
 
-//var collision_line_min = 30;
-//ds_list_add(_map[?start_line_color], id)
+function AddToQueue(_id){
+	ds_queue_enqueue(queue, _id);
+}

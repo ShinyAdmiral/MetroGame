@@ -1,4 +1,16 @@
 /// @description Draw station surface
+
+if (global.person_picked_up && global.current_person_station != station_hosting.name){
+	if (!hover)
+		nineSliceScript(spr_unhovered_station_nineSlice_wrong, x, y, x_end_pos, y_end_pos);
+	
+	else{
+		nineSliceScript(spr_station_nineSlice_wrong, x, y, x_end_pos, y_end_pos);
+	}
+	
+	exit;
+}
+
 if (!hover)
 	nineSliceScript(spr_unhovered_station_nineSlice, x, y, x_end_pos, y_end_pos);
 	

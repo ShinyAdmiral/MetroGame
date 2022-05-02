@@ -3,7 +3,7 @@
 if (!picked_up){
 	StayPut();
 	
-	if (IsHovering()){
+	if (IsHovering() && !global.person_picked_up){
 		if (mouse_check_button_pressed(mb_left))
 			AttatchToMouse();
 		

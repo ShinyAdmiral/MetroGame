@@ -11,7 +11,7 @@ with(obj_major_station){
 		case "yellow":	search_object = obj_colored_station_yellow;	break;
 	}
 	
-	searchForNode(other.metro_line_connections[?start_line_color], search_object, id);
+	SearchForNode(other.metro_line_connections[?start_line_color], search_object, id);
 	checked = false;
 	with(obj_major_station) checked = false;
 	
@@ -29,6 +29,9 @@ with(obj_major_station){
 										
 	_inst.line = other.metro_line_connections[?start_line_color];
 	_inst.Start();
+	
+	//exception
+	if (train_object == obj_yellow_train) continue;
 	
 	var _size = ds_list_size(other.metro_line_connections[?start_line_color]);
 	_inst = instance_create_layer(		other.metro_line_connections[?start_line_color][|_size-1].x, 

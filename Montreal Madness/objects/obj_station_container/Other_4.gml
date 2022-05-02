@@ -26,3 +26,6 @@ else{
 		
 	station_hosting = _station_hosting;
 }
+
+for(var i = 0; i < person_max; ++i)
+	character_slots[i].current_station = station_hosting.name;
