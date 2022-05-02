@@ -1,4 +1,6 @@
 /// @description function declaration
+event_inherited();
+
 checked = false;
 
 //recursive function ment to loop until re run out of nodes
