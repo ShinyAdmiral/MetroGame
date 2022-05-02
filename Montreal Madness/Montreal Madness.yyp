@@ -45,6 +45,7 @@
     {"id":{"name":"spr_metroSignGreen","path":"sprites/spr_metroSignGreen/spr_metroSignGreen.yy",},"order":8,},
     {"id":{"name":"spr_blueTrain","path":"sprites/spr_blueTrain/spr_blueTrain.yy",},"order":1,},
     {"id":{"name":"obj_connection_manager","path":"objects/obj_connection_manager/obj_connection_manager.yy",},"order":4,},
+    {"id":{"name":"spr_jeanDrapeauBiosphere","path":"sprites/spr_jeanDrapeauBiosphere/spr_jeanDrapeauBiosphere.yy",},"order":16,},
     {"id":{"name":"spr_minorStation_yellow","path":"sprites/spr_minorStation_yellow/spr_minorStation_yellow.yy",},"order":1,},
     {"id":{"name":"obj_colored_station_orange","path":"objects/obj_colored_station_orange/obj_colored_station_orange.yy",},"order":2,},
     {"id":{"name":"obj_game_manager","path":"objects/obj_game_manager/obj_game_manager.yy",},"order":4,},
