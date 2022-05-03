@@ -25,6 +25,7 @@ if (!IsHovering() && global.hovered_ocupied == id){
 if (!hovered){
 	Move();
 	Animate();
+	GetCurrentStation();
 }
 
 else{
@@ -34,4 +35,5 @@ else{
 //update position
 for (var i = 0; i < 3; i++){
 	person_spots[i].update(x, y);
+	person_spots[i].inst.current_station = current_station;
 }

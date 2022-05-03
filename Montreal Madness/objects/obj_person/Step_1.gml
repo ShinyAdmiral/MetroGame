@@ -1,2 +1,3 @@
 /// @description make invisible if needed
-if (current_occupide_node != noone) visible = current_occupide_node.visible;
+if (at_destination) visible = true;
+else if (current_occupide_node != noone) visible = current_occupide_node.visible;

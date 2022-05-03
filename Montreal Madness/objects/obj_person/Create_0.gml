@@ -14,6 +14,7 @@ height = sprite_get_height(sprite_index);
 
 current_station = "";
 desired_station = "Square Victoria";
+at_destination = false;
 
 function StayPut(){
 	if (current_occupide_node == noone) return;
@@ -69,7 +70,7 @@ function UnAttatchToMouse(){
 
 	//var _size = ds_list_size(_temp_list);
 	for (var i = _size - 1; i != -1; --i)
-		if(_temp_list[|i].occupied_by == noone && _temp_list[|i].current_station = current_station)
+		if(_temp_list[|i].occupied_by == noone && _temp_list[|i].current_station == current_station)
 			current_occupide_node = _temp_list[|i];
 	
 	//set vars
