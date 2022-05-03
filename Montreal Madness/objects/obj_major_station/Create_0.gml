@@ -4,6 +4,8 @@ event_inherited();
 checked = false;
 queue = ds_queue_create();
 current_in_que = noone;
+s_color = start_line_color;
+is_start = start_station;
 
 //recursive function ment to loop until re run out of nodes
 function SearchForNode(_line, _search_id, _current_id){

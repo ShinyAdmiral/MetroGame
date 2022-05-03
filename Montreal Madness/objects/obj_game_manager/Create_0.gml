@@ -15,8 +15,45 @@ nine_slice_surface = noone;
 
 top_position_y = 0;
 bottom_position_y = 89;
-current_postion_y = bottom_position_y;
+current_postion_y = -39
 current_amount = 0;
+top = false;
+started = false;
+
+ui_time = 0;
+text = "";
+portrait_num = 0;
+
+function set_sation(station){
+	var _id;
+	var _list = ds_list_create();
+	
+	with(obj_major_station){
+		if (name == station) _id = id;
+		if (is_start && ds_list_find_index(_list, s_color) == -1) ds_list_add(_list, s_color);
+	}
+	
+	var _find = ds_list_find_index(_list, _id.s_color);
+	ds_list_delete(_list, _find);
+	
+	var _length = ds_list_size(_list) - 1;
+	var _random_line = irandom_range(0, _length);
+	
+	var metros = obj_connection_manager.metro_line_connections[?_list[|_random_line]];
+	
+	_length = ds_list_size(metros) - 1;
+	var _random_stop = irandom_range(0, _length);
+	var desired = metros[|_random_stop].name;
+	
+	//do not get on our metro
+	while(station == desired){
+		_random_stop = irandom_range(0, _length);
+		desired = metros[|_random_stop].name;
+	}
+	
+	ds_list_destroy(_list);
+	return desired;
+}
 
 function spawn_character(){
 	//get random station
@@ -38,6 +75,8 @@ function spawn_character(){
 				_inst.current_occupide_node = station_list[|_ran_index].character_slots[k];
 				_inst.move_back_start_x = station_list[|_ran_index].character_slots[k].x;
 				_inst.move_back_start_y = station_list[|_ran_index].character_slots[k].y;
+				
+				_inst.desired_station = set_sation(station_list[|_ran_index].character_slots[k].current_station);
 			
 				station_list[|_ran_index].character_slots[k].occupied_by = _inst;
 				_found = true;
