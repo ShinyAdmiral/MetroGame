@@ -1,7 +1,7 @@
 /// @description Update Camera
 
 //input
-if (mouse_check_button(mb_right)){
+if (mouse_check_button(mb_left) && !global.person_picked_up){
 	if (move_mode = false){
 		start_mouse_x = mouse_x - camera_get_view_x(camera);
 		start_mouse_y = mouse_y - camera_get_view_y(camera);

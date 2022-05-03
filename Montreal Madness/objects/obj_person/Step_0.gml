@@ -7,6 +7,8 @@ if (!picked_up){
 		if (mouse_check_button_pressed(mb_left))
 			AttatchToMouse();
 		
+		global.person_hovered = id;
+		
 		image_xscale = hover_scale;
 		image_yscale = hover_scale;
 	}

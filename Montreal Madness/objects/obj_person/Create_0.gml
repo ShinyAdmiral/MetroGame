@@ -5,8 +5,6 @@ move_back_lerp = 0;
 move_back_start_x = 0;
 move_back_start_y = 0;
 
-global.person_picked_up = false;
-
 mouse_offset_x = 0;
 mouse_offset_y = 0;
 
@@ -15,7 +13,7 @@ width = sprite_get_width(sprite_index);
 height = sprite_get_height(sprite_index);
 
 current_station = "";
-desired_station = "";
+desired_station = "Square Victoria";
 
 function StayPut(){
 	if (current_occupide_node == noone) return;
