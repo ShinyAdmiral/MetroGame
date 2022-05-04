@@ -23,7 +23,8 @@ if (!IsHovering() && global.hovered_ocupied == id){
 }
 
 if (!hovered){
-	Move();
+	if (!global.person_picked_up) Move();
+	else speed = 0;
 	Animate();
 	GetCurrentStation();
 }

@@ -41,6 +41,10 @@ function StayPut(){
 function MoveObject(){
 	if (current_occupide_node != noone) current_occupide_node.occupied_by = id;
 	
+	//maybe remove this
+	current_station = current_occupide_node.current_station;
+	global.current_person_station = current_station;
+	
 	x = mouse_x - mouse_offset_x;
 	y = mouse_y - mouse_offset_y;
 	visible = true;
