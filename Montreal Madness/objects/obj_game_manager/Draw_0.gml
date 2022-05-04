@@ -27,6 +27,21 @@ if (global.person_hovered != noone){
 	//update time
 	ui_time += ui_speed;
 	ui_time = min(ui_time, 1);
+	
+	//play sound
+	if (ui_time > 0.7 && play_huh_sound && !audio_is_playing(sfx_huh1) && !audio_is_playing(sfx_huh2) && !audio_is_playing(sfx_huh3)){
+		var _ran = irandom_range(0, 2);
+		var _sfx;
+		
+		switch(_ran){
+			case 0: _sfx = audio_play_sound(sfx_huh1, 10, false); break;
+			case 1: _sfx = audio_play_sound(sfx_huh2, 10, false); break;	
+			case 2: _sfx = audio_play_sound(sfx_huh3, 10, false); break;	
+		}
+		
+		audio_sound_pitch(_sfx, random_range(0.9, 1.15));
+		play_huh_sound = false;
+	}
 }
 else{
 	//move ui
@@ -39,4 +54,6 @@ else{
 	
 	ui_time -= ui_speed;
 	ui_time = max(ui_time, 0);
+	
+	if (ui_time == 0) play_huh_sound = true;
 }

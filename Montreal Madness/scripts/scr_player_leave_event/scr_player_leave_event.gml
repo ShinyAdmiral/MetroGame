@@ -8,6 +8,13 @@ function player_leave_event(_desired_station){
 		}
 		
 		spawn_character();
+		
+		if (alarm[1] <= 0){
+			var _sfx = audio_play_sound(sfx_yay, 10, false);
+			audio_sound_pitch(_sfx, random_range(0.9, 1.1));
+			
+			alarm[1] = 15;
+		}
 	}
 	
 	with(obj_ui) hearts_obtained++;

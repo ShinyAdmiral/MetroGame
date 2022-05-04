@@ -24,6 +24,10 @@ ui_time = 0;
 text = "";
 portrait_num = 0;
 
+music = noone;
+music_index = 0;
+play_huh_sound = true;
+
 function set_sation(station){
 	var _id;
 	var _list = ds_list_create();

@@ -61,6 +61,9 @@ function AttatchToMouse(){
 	mouse_offset_x = mouse_x - x;
 	mouse_offset_y = mouse_y - y;
 	layer = layer_get_id("Selected_Person");
+	
+	var _sfx = audio_play_sound(sfx_pickup, 10, false);
+	audio_sound_pitch(_sfx, random_range(0.85, 1.15));
 }
 
 function UnAttatchToMouse(){
@@ -70,8 +73,14 @@ function UnAttatchToMouse(){
 
 	//var _size = ds_list_size(_temp_list);
 	for (var i = _size - 1; i != -1; --i)
-		if(_temp_list[|i].occupied_by == noone && _temp_list[|i].current_station == current_station)
+		if(_temp_list[|i].occupied_by == noone && _temp_list[|i].current_station == current_station){
 			current_occupide_node = _temp_list[|i];
+			
+			if (!audio_is_playing(sfx_pickup)){
+				var _sfx = audio_play_sound(sfx_pickup, 10, false);
+				audio_sound_pitch(_sfx, random_range(0.6, 0.8));
+			}
+		}
 	
 	//set vars
 	picked_up = false;
