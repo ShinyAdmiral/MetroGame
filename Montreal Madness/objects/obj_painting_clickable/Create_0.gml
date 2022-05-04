@@ -4,3 +4,4 @@ surface = noone;
 hovered = false;
 disabled = false;
 image = sprite;
+text = title;

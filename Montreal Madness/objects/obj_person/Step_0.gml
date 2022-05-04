@@ -33,6 +33,6 @@ else{
 		at_destination = true;
 		instance_create_layer(x, y, "Hearts", obj_heat_particle);
 		layer = layer_get_id("Selected_Person");
-		player_leave_event();
+		player_leave_event(desired_station);
 	}
 }

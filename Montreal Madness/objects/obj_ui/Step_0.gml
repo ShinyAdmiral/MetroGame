@@ -1,8 +1,8 @@
 /// @description Input Stuff
-var local_x = mouse_x - obj_camera.x + obj_camera.view_width * 0.5;
-var local_y = mouse_y - obj_camera.y + obj_camera.view_height * 0.5;
+local_x = mouse_x - obj_camera.x + obj_camera.view_width * 0.5;
+local_y = mouse_y - obj_camera.y + obj_camera.view_height * 0.5;
 
-show_debug_message("( " + string(local_x) + ", " + string(local_y) + " )");
+//show_debug_message("( " + string(local_x) + ", " + string(local_y) + " )");
 
 
 if (local_x > 108 && local_x < 124 && local_y > 4 && local_y < 20){
