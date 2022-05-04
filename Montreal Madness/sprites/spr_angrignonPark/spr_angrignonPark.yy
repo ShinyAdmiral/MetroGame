@@ -8,13 +8,13 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 127,
+  "bbox_right": 115,
   "bbox_top": 0,
   "bbox_bottom": 76,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 128,
+  "width": 116,
   "height": 77,
   "textureGroupId": {
     "name": "Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1cd04733-7b9e-415a-a3a2-79307a532645","path":"sprites/spr_angrignonPark/spr_angrignonPark.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1cd04733-7b9e-415a-a3a2-79307a532645","path":"sprites/spr_angrignonPark/spr_angrignonPark.yy",},"LayerId":{"name":"a8e38c49-26b1-47a3-b69b-6d85c4020b63","path":"sprites/spr_angrignonPark/spr_angrignonPark.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_angrignonPark","path":"sprites/spr_angrignonPark/spr_angrignonPark.yy",},"resourceVersion":"1.0","name":"1cd04733-7b9e-415a-a3a2-79307a532645","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e67fa289-3a26-4dbb-91cb-2fbb3b2a40ec","path":"sprites/spr_angrignonPark/spr_angrignonPark.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e67fa289-3a26-4dbb-91cb-2fbb3b2a40ec","path":"sprites/spr_angrignonPark/spr_angrignonPark.yy",},"LayerId":{"name":"4710cb72-c6a1-4763-bb3d-975c2851f2bc","path":"sprites/spr_angrignonPark/spr_angrignonPark.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_angrignonPark","path":"sprites/spr_angrignonPark/spr_angrignonPark.yy",},"resourceVersion":"1.0","name":"e67fa289-3a26-4dbb-91cb-2fbb3b2a40ec","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_angrignonPark","path":"sprites/spr_angrignonPark/spr_angrignonPark.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"3f00473d-f936-4bdf-8e7d-902b95f92ce8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1cd04733-7b9e-415a-a3a2-79307a532645","path":"sprites/spr_angrignonPark/spr_angrignonPark.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"602d58b3-cf71-4ac2-913d-03db180c64b6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e67fa289-3a26-4dbb-91cb-2fbb3b2a40ec","path":"sprites/spr_angrignonPark/spr_angrignonPark.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,7 +54,7 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 64,
+    "xorigin": 58,
     "yorigin": 38,
     "eventToFunction": {},
     "eventStubScript": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a8e38c49-26b1-47a3-b69b-6d85c4020b63","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4710cb72-c6a1-4763-bb3d-975c2851f2bc","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "locationSprites",
