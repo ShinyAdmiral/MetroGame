@@ -9,3 +9,4 @@ enum UI_STATE{
 ui_state = UI_STATE.NONE;
 
 painting_scale = 1;
+hearts_obtained = 0;

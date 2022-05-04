@@ -9,4 +9,6 @@ function player_leave_event(){
 		
 		spawn_character();
 	}
+	
+	with(obj_ui) hearts_obtained++;
 }

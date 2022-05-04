@@ -1,5 +1,6 @@
 /// @description show people goals
 
+//draw desires
 if (!surface_exists(nine_slice_surface)) nine_slice_surface = surface_create(128, 128);
 
 var _g_width = display_get_gui_width();
